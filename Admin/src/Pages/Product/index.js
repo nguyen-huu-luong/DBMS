@@ -39,7 +39,7 @@ const Product = () => {
 
             <div className='w-100 bg-white h-100vh border border-1 p-3'  >
 
-                <div className="row mt-3">
+                 <div className="row mt-3">
                     <div className="mb-4 col-5">
                         <div className="row">
                             <p className="ms-2 col-sm-2 mt-2 mb-4 me-3">All({dataAll.length})</p>
@@ -91,7 +91,7 @@ const Product = () => {
                                             <tr>
                                                 <td className="pt-3">{item.id}</td>
                                                 <td className="pt-3">{item.price}</td>
-                                                <td className="pt-2"><img src={item.image} style={{ width: "1.5cm", height: "1.5cm" }} /></td>
+                                                <td className="pt-2"><img src={item.image} style={{ width: "1.4cm", height: "1.4cm" }} /></td>
                                                 <td className="pt-3">{item.quantity}</td>
                                                 <td className="pt-3">{item.categoryID}</td>
                                                 <td>
@@ -124,7 +124,7 @@ const Product = () => {
                             />
                         }
                     </div>
-                </div>
+                </div> 
 
             </div>
 
